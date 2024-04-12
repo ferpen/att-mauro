@@ -1,0 +1,84 @@
+ .lado{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-right: 10px;
+            margin-left: 40px;
+            background-color: gray;
+            padding: 10px;
+        }
+        .ladoi img{
+            width: auto;
+            height: 100px;
+            padding-top: 1px;
+        }
+        
+        .produto{
+   
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .iproduto{
+            height: 400px;
+            width: 400px;   
+            margin-right: 20px;
+            padding-left: 1px;
+            padding-top: 1px;
+            padding-right: 101px;
+            padding-bottom: 100.5px;
+            background-color: black;
+        }
+
+        .conjunto {
+            margin-top: 50px;
+            display: flex;
+            gap: 20px;
+        }
+        header{
+            background-color: #504e4e;
+            color: #fff;
+            padding: 25px;
+                text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+            font-size: 20px;
+        }
+
+     
+        .logo {
+          position: absolute;
+          top: 0px; 
+          right: 20px; 
+          width: 120px;
+          margin-top: 2rem;
+        }
+
+        .botao {
+
+            width: 200px;
+            height: 90px;
+            cursor: pointer;
+            text-transform: uppercase;
+            color: black;
+            font-weight: 700;
+            margin-top: 20px;
+
+        }
+
+        .quantidade {
+
+            float: center;
+
+        }
+
+        .faq{
+            text-decoration: underline;
+            margin-top: 50px;
+            color:blue;
+            text-align: right;
+            margin-right: 30px;
+        }
